@@ -10,6 +10,9 @@ const numberAge = parseInt(age)
 if(numberAge <= 2007 && genre === 'Country-Pop') {
  console.log('Your baby mama is Britney Spears');
 }
+else if ( song === 'Baby got back' && genre === 'HipHop-R&B' && numberAge >= 2007){
+    console.log('Your baby Mama is Nikki Minaj')
+}
 else if(song === 'Baby got back' || genre === 'HipHop-R&B') {
     console.log('Your baby mama is Aaliyah');
    }
